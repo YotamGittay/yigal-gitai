@@ -177,19 +177,9 @@ button, input { font: inherit; }
 
 .order { background: var(--white); }
 .order-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 3rem; align-items: center; }
-.buy-card { margin-top: 1.4rem; padding: 1.3rem; border: 1px solid rgba(43, 33, 24, 0.12); border-radius: 18px; background: var(--paper); }
-.qty { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1rem; }
-.qty button, .qty input {
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  border: 1px solid rgba(43, 33, 24, 0.18);
-  background: var(--white);
-  border-radius: 10px;
-}
-.total { font-size: 1.15rem; }
-.fine { font-size: 0.88rem; color: var(--muted); }
-.fine a { text-decoration: underline; }
+.buy-card { margin-top: 1.4rem; padding: 1.5rem; border: 1px solid rgba(43, 33, 24, 0.12); border-radius: 18px; background: var(--paper); }
+.buy-text { margin: 0 0 1.2rem; color: var(--muted); }
+.buy-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
 
 .lead { display: grid; gap: 0.9rem; }
 .lead label { display: grid; gap: 0.35rem; color: var(--muted); }

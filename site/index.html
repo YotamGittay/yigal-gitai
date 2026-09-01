@@ -39,8 +39,7 @@
     <div class="nav-links" id="navLinks">
       <a href="#about">מי אנחנו</a>
       <a href="#book">על הספר</a>
-      <a href="#order">הזמנות</a>
-      <a class="nav-cta" href="#join">הצטרפו אלינו</a>
+      <a class="nav-cta" href="#order">הזמנה</a>
     </div>
   </nav>
 
@@ -167,35 +166,17 @@
           <h2 class="reveal">להזמנת הספר ״בין מילותיי״</h2>
           <p class="lede reveal">ספר שירה · ₪88.00</p>
           <div class="buy-card reveal">
-            <div class="qty">
-              <button type="button" id="qtyMinus" aria-label="הסרה">−</button>
-              <input id="qty" type="number" min="1" value="1" readonly>
-              <button type="button" id="qtyPlus" aria-label="הוספה">+</button>
+            <p class="buy-text">אין חנות מקוונת — ההזמנה נעשית ישירות מול הסופר, בדוא״ל או בטלפון. נשמח לצרף הקדשה אישית.</p>
+            <div class="buy-actions">
+              <a class="btn btn-ink" href='mailto:gittayi@gmail.com?subject=הזמנת הספר "בין מילותיי"&body=שלום,%0D%0A%0D%0Aאשמח להזמין עותק של הספר "בין מילותיי".%0D%0Aשם:%0D%0Aכתובת למשלוח:%0D%0Aטלפון:%0D%0A'>הזמנה במייל</a>
+              <a class="btn btn-ghost" href="tel:+972502070390">חיוג: 050-2070390</a>
             </div>
-            <p class="total">סה״כ לתשלום: <strong id="total">₪88.00</strong></p>
-            <a class="btn btn-ink" id="orderBtn" href="mailto:gittayi@gmail.com?subject=%D7%94%D7%96%D7%9E%D7%A0%D7%AA%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9E%D7%99%D7%9C%D7%95%D7%AA%D7%99%D7%99&body=%D7%A9%D7%9C%D7%95%D7%9D%2C%0A%0A%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%96%D7%9E%D7%99%D7%9F%201%20%D7%A2%D7%95%D7%AA%D7%A7%20%D7%A9%D7%9C%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%91%D7%99%D7%9F%20%D7%9E%D7%99%D7%9C%D7%95%D7%AA%D7%99%D7%99.">להזמנה ותשלום</a>
-            <p class="fine">ההזמנה נפתחת בדוא״ל אל gittayi@gmail.com או בטלפון <a href="tel:+972502070390">050-2070390</a>.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section join" id="join">
-      <div class="wrap narrow">
-        <h2 class="reveal">הצטרפו לרשימת התפוצה</h2>
-        <p class="lede reveal">ותוכלו לקבל עדכונים בנוגע לאירוע השקה ועוד</p>
-        <form class="lead" id="lead" novalidate>
-          <label>שם מלא<input type="text" name="name" required autocomplete="name"></label>
-          <label>מייל<input type="email" name="email" required autocomplete="email"></label>
-          <button class="btn btn-ink" type="submit">שליחה</button>
-          <label class="check">
-            <input type="checkbox" name="optin" required>
-            <span>אני רוצה להצטרף לרשימת התפוצה, ומאשר/ת לשלוח אליי תכנים שיווקיים במייל ו/או בהודעות לנייד</span>
-          </label>
-          <p class="form-note" id="leadNote" role="status"></p>
-        </form>
-      </div>
-    </section>
+    <!-- newsletter section disabled (no backend). Re-enable when a mailing-list provider is wired. -->
   </main>
 
   <footer class="footer">
