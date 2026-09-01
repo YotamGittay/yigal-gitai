@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: yigal-gitai-poc:latest
+    container_name: yigal-gitai-poc
+    ports:
+      - "8088:80"
+    restart: unless-stopped
