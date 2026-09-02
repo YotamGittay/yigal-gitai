@@ -181,6 +181,13 @@ button, input { font: inherit; }
 .buy-text { margin: 0 0 1.2rem; color: var(--muted); }
 .buy-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
 
+.bit-pay { margin-top: 1.3rem; padding: 1.1rem 1.2rem; border-radius: 14px; border: 1px solid rgba(0, 176, 185, 0.28); background: linear-gradient(180deg, rgba(0, 176, 185, 0.08), rgba(0, 176, 185, 0.03)); }
+.bit-pay-head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; }
+.bit-badge { display: inline-flex; align-items: center; justify-content: center; padding: 0.18rem 0.6rem; border-radius: 8px; background: #00b0b9; color: #fff; font-weight: 800; letter-spacing: 0.02em; font-size: 0.95rem; }
+.bit-title { font-weight: 700; color: var(--ink); }
+.bit-steps { margin: 0; color: var(--muted); line-height: 1.7; }
+.bit-steps a { color: #0091a0; font-weight: 600; }
+
 .lead { display: grid; gap: 0.9rem; }
 .lead label { display: grid; gap: 0.35rem; color: var(--muted); }
 .lead input[type="text"], .lead input[type="email"] {
